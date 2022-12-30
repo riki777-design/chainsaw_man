@@ -36,7 +36,8 @@ const character = [
 "東山コベニ",
 "ポチタ",
 "吉田ヒロフミ",
-"デンジ"
+"デンジ",
+"ホゲタ"
 ];
 
 const btn = document.getElementById("gacha-button");
@@ -82,7 +83,10 @@ switch (character[num]) {
     ans.src='images/yoshida.png'
     break;
     case character[10]:
-      ans.src='images/denji.png'
+    ans.src='images/denji.png'
+    break;
+    case character[11]:
+    ans.src='images/hogeta.jpg'
     break;
 
 }
