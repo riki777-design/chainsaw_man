@@ -37,7 +37,7 @@ const character = [
 "ポチタ",
 "吉田ヒロフミ",
 "デンジ",
-"ホゲタ"
+"ポゲタ"
 ];
 
 const btn = document.getElementById("gacha-button");
